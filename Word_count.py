@@ -33,6 +33,8 @@ def get_word_count(file_name):
 
     for word, count in count_of_word_in_file.items():
         print(word, count)
+        
+    file.close()
 
 
 get_word_count("test.txt")
